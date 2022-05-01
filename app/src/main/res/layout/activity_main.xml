@@ -10,13 +10,12 @@
         android:id="@+id/txt"
         android:layout_width="118dp"
         android:layout_height="139dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginBottom="153dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
         android:text="@string/inc"
         android:textSize="96sp"
-        app:layout_constraintBottom_toTopOf="@+id/btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.634"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,6 +23,7 @@
         android:id="@+id/btn"
         android:layout_width="158dp"
         android:layout_height="71dp"
+        android:layout_marginTop="368dp"
         android:background="#FF0000"
         android:hapticFeedbackEnabled="false"
         android:text="@string/increase"
@@ -33,11 +33,9 @@
         android:textColorLink="#FF2323"
         android:textSize="20sp"
         app:iconTint="#911B1B"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt"
-        app:layout_constraintVertical_bias="0.501"
         app:strokeColor="#FFD4D4" />
 </androidx.constraintlayout.widget.ConstraintLayout>

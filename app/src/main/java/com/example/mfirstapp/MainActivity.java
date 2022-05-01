@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         t = findViewById(R.id.txt);
         b = findViewById(R.id.btn);
 
-        //click event listener
+        /*click event listener
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 //This new count valiable is updated after each click on screen text view.
                 t.setText(Integer.toString(count));
             }
-        });
+        });*/
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
