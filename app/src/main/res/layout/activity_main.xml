@@ -44,6 +44,7 @@
         android:id="@+id/button"
         android:layout_width="149dp"
         android:layout_height="84dp"
+        android:onClick="decreaseCount"
         android:text="@string/decrease"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/btn"

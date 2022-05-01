@@ -25,5 +25,9 @@ public class MainActivity extends AppCompatActivity {
         count++;
         t.setText(Integer.toString(count));
     }
+    public void decreaseCount(View view){
+        count--;
+        t.setText(Integer.toString(count));
+    }
 
 }
