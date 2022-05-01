@@ -23,7 +23,7 @@
         android:id="@+id/btn"
         android:layout_width="158dp"
         android:layout_height="71dp"
-        android:layout_marginTop="368dp"
+        android:layout_marginBottom="48dp"
         android:background="#FF0000"
         android:hapticFeedbackEnabled="false"
         android:onClick="IncreaseCount"
@@ -34,9 +34,21 @@
         android:textColorLink="#FF2323"
         android:textSize="20sp"
         app:iconTint="#911B1B"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt"
         app:strokeColor="#FFD4D4" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="149dp"
+        android:layout_height="84dp"
+        android:text="@string/decrease"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt"
+        app:layout_constraintVertical_bias="0.866" />
 </androidx.constraintlayout.widget.ConstraintLayout>
