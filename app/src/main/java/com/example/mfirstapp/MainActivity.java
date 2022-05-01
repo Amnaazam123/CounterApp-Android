@@ -30,4 +30,9 @@ public class MainActivity extends AppCompatActivity {
         t.setText(Integer.toString(count));
     }
 
+    public void Reset(View view){
+        count=0;
+        t.setText(Integer.toString(count));
+    }
+
 }

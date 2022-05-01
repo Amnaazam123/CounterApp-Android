@@ -3,5 +3,6 @@
     <string name="send_message">Send</string>
     <string name="increase">increase</string>
     <string name="decrease">decrease</string>
+    <string name="reset">reset</string>
     <string name="inc">0</string>
 </resources>
