@@ -26,6 +26,7 @@
         android:layout_marginTop="368dp"
         android:background="#FF0000"
         android:hapticFeedbackEnabled="false"
+        android:onClick="IncreaseCount"
         android:text="@string/increase"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#EA0202"

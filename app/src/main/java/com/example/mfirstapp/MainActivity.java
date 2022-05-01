@@ -14,21 +14,16 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        t = findViewById(R.id.txt);
-        b = findViewById(R.id.btn);
-
-        /*click event listener
-        b.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //count is incremented  by 1
-                count++;
-                //This new count valiable is updated after each click on screen text view.
-                t.setText(Integer.toString(count));
-            }
-        });*/
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        t = (TextView) findViewById(R.id.txt);
+        b = (Button)findViewById(R.id.btn);
+
     }
+    public void IncreaseCount(View view){
+        count++;
+        t.setText(Integer.toString(count));
+    }
+
 }
