@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //count is incremented  by 1
                 count++;
+                //This new count valiable is updated after each click on screen text view.
                 t.setText(Integer.toString(count));
             }
         });
