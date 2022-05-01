@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    //variable for maintaining count 
     private int count = 0;
     TextView t;
     Button b;
@@ -16,9 +17,11 @@ public class MainActivity extends AppCompatActivity {
         t = findViewById(R.id.txt);
         b = findViewById(R.id.btn);
 
+        //click event listener
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //count is incremented  by 1
                 count++;
                 t.setText(Integer.toString(count));
             }
